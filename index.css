@@ -1,0 +1,39 @@
+.container{
+    height: auto;
+    width: 600px;
+    border: 2px solid black;
+    background-image: url(/wal.jpg);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
+#acc{
+    font-size: 25px;
+    padding-left: 7px;
+    display: flex;
+}
+#fname,#lname,#mail,#phon,#pass,#cpass{
+    height: 25px;
+    width: 35rem;
+}
+#sign{
+    height: 35px;
+    width: 550px;
+    margin: 25px;
+    background-color: blue;
+    color: white;
+    cursor: pointer; 
+}
+#acc:hover{
+    cursor: pointer;
+    color: green;
+    
+}
+#sign:hover{
+    background-color: red;
+    box-shadow: 2px 4px 7px 6px yellowgreen;
+    text-shadow: 3px 2px 5px 4px black;
+}

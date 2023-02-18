@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="form" method="post">
+      <div class="container">
+        <div class="form">
+          <h1 id="acc">create Your account</h1><hr>
+          <br />
+          <label for="">First name</label><br />
+          <input type="text" id="fname" placeholder="Enter First name" required /><br /><br />
+          <label for="">Last name</label><br />
+          <input type="text" id="lname" placeholder="Enter Last name"required /><br /><br />
+          <label for="">E-mail</label><br />
+          <input type="email" name="" id="mail" placeholder="Enter E-mail"required /><br /><br />
+          <label for="">phone</label><br />
+          <input type="number" name="" id="phon" placeholder="Enter Number" required /><br /><br />
+          <label for="">password</label><br />
+          <input
+            type="password"
+            name=""
+            id="pass"
+            placeholder="enter password"
+          /><br /><br />
+          <label for="">confirm password</label>
+          <input
+            type="password"
+            name=""
+            id="pass"
+            placeholder="confirm password"
+            required
+          />
+          <button type="submit" id="sign" name="sign-up" value="sign-up" onclick="submited()">sign-up</button>
+        </div>
+      </div>
+    </form>
+    <script src="/index.js"></script>
+  </body>
+</html>
