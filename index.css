@@ -2,8 +2,9 @@
     height: auto;
     width: 600px;
     border: 2px solid black;
-    background-image: url(/wal.jpg);
+    background-image: url(/form/wal.jpeg);
     color: white;
+
     display: flex;
     justify-content: center;
     align-items: center;
